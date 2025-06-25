@@ -1,3 +1,12 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const showMoreBtn = document.getElementById("showMoreBtn");
+  const hiddenSection = document.querySelector(".hidden-clients");
+
+  showMoreBtn.addEventListener("click", function () {
+    hiddenSection.style.display = "flex";
+    showMoreBtn.style.display = "none";
+  });
+});
 
 
 
